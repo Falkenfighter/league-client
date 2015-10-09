@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title League Client
+        link(rel='stylesheet', href='../node_modules/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='./css/style.css')
+    body
+        form#loginForm.form-group
+            div.form-group
+                div.col-sm-4
+                    input#username.form-control(placeholder='Username')
+            div.form-group
+                div.col-sm-4
+                    input#password.form-control(type='password' placeholder='Password')
+            div.form-group
+                div.col-sm-offset-2.col-sm-10
+                    div.checkbox
+                        label
+                            input#saveUsername(type='checkbox')
+                            | Save Username
+            div.form-group
+                div.col-sm-offset-2.col-sm-10
+                    button#login.btn.btn-default(type='submit') Login
+        script(src='./js/login.js')

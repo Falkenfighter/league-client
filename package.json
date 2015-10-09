@@ -1,0 +1,17 @@
+{
+  "name": "league-client",
+  "version": "0.0.0",
+  "main": "app.js",
+  "private": true,
+  "devDependencies": {
+    "electron-connect": "^0.3.3",
+    "electron-prebuilt": "^0.33.6",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "jade": "~1.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "node-uuid": "^1.4.3"
+  }
+}
