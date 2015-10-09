@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
-    "node-uuid": "^1.4.3"
+    "remove": "^0.1.5"
   }
 }
